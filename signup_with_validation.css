@@ -1,0 +1,61 @@
+section
+{
+    width: 600px;
+    height: 600px;
+    /* background-color: red; */
+    position: absolute;
+    left: 25em;
+    border: solid 1px grey;
+    box-shadow: 5px 5px 2px lightgray;
+}
+.header_div
+{
+    width: 600px;
+    height: 70px;
+    position: relative;
+    background-color: dodgerblue;
+    text-align: center;
+    padding-top: 1px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.form_div
+{
+    width: 300px;
+    height: 480px;
+    position: relative;
+    /* background-color: green; */
+
+    padding-left: 20px;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+input[type=text], input[type=email], input[type=password]
+{
+    border:none;
+    border-bottom: 1px lightgrey solid;
+    width: 7cm;
+    height: 20px;
+    font-size: 15px;
+}
+input[type=date]
+{
+    border : none;
+    border-bottom : 1px lightgrey solid;
+    width : 5cm;
+    height: 20px;
+}
+button
+{
+    width: 260px;
+    height: 40px;
+    border-color: dodgerblue;
+    color: dodgerblue;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+}
+i
+{
+margin-left : 25px;
+}
